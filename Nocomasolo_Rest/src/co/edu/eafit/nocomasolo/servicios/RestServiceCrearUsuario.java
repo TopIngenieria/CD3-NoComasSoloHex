@@ -23,6 +23,7 @@ public class RestServiceCrearUsuario {
 			@FormDataParam("reg_pregado") String pregrado) 
 	{
 		String output = "";
+		output="N:"+nombre+"C:"+codigo+"CO:"+correo+"Id"+idiomas+"Pre"+pregrado;
 		return Response.status(200).entity(output)
 				.header("Access-Control-Allow-Origin", "*").build();
 	}

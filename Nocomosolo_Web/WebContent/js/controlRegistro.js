@@ -37,7 +37,7 @@ function llamarServicio(reg_nombre, reg_correo, reg_codigo, reg_idiomas, reg_pre
 	
     jQuery.ajax({
     	data: formData,
-        url: 'http://localhost:8080/Nocomasolo_rest/rest/restserviceuser/createUser',
+        url: 'http://localhost:8080/Nocomasolo_rest/rest/restservicecrearusuario/crearUsuario',
         type: 'POST',
 	    contentType: false,
 	    processData: false,
@@ -60,7 +60,7 @@ function llamarServicio(reg_nombre, reg_correo, reg_codigo, reg_idiomas, reg_pre
 
 function verificacion(jsonResponse) {
     if (jsonResponse.Registration == "true") {
-        window.location = "index.html";
+        window.location = "menu_publicar-ver.html";
     } else {
         showMsg();
     }
@@ -73,4 +73,8 @@ function showMsg() {
     opts.classes = ["smokey"];
     opts.classes.push("error");
     $(contenedor).freeow(title, messaje, opts);
+}
+function changePage(){
+
+
 }
