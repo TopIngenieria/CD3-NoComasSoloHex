@@ -19,5 +19,23 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="E:/Tools/Complementos_Eclipse/javax.faces-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mcuervo1/.m2/repository/com/sun/jersey/contribs/jersey-multipart/1.18.1/jersey-multipart-1.18.1.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.sun.jersey.contribs"/>
+			<attribute name="maven.artifactId" value="jersey-multipart"/>
+			<attribute name="maven.version" value="1.18.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/mcuervo1/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="javax.ws.rs"/>
+			<attribute name="maven.artifactId" value="javax.ws.rs-api"/>
+			<attribute name="maven.version" value="2.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
